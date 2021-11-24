@@ -1,2 +1,2 @@
-# lockhouse aplicativo de IoT
-
+# Atividade da Faculdade 
+Sistema de fechadura eletronica

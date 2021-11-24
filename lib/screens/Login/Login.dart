@@ -22,7 +22,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
   String get password => _pass.text;
 
   void doLogin(BuildContext context) {
-    if (username == 'aluno@faculdadeimpacta.com.br' && password == 'impacta') {
+    if (username == '' && password == '') {
       FirebaseAuthAppNavigator.goToHome(context);
     } else {
       Scaffold.of(context).showSnackBar(SnackBar(
